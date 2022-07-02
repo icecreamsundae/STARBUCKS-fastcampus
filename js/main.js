@@ -28,7 +28,7 @@ const toTopEl = document.querySelector('#to-top');
 window.addEventListener('scroll', _.throttle(function () {
   // 페이지 스크롤 위치가 500px이 넘으면.
   if (window.scrollY > 500) {
-    // Badge 요소 숨기기!
+    //  배지 숨기기!
     gsap.to(badgeEl, .6, {
       opacity: 0, //시각적으로만 사라짐 : 서서히 사라지기 위해 사용
       display: 'none' //화면에서 없애줌
@@ -40,7 +40,7 @@ window.addEventListener('scroll', _.throttle(function () {
 
   // 페이지 스크롤 위치가 500px이 넘지 않으면.
   } else {
-    // Badge 요소 보이기!
+    // 배지 보이기!
     gsap.to(badgeEl, .6, {
       opacity: 1,
       display: 'block'
