@@ -27,13 +27,19 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="./css/main.css" />
 
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script> -->
+  <!--ScrollToPlugin-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!--ScrollMagic-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
   <!-- LODASH -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- SWIPER -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   
   <script defer src="./js/main.js"></script>
   <script defer src="./js/youtube.js"></script>
@@ -415,7 +421,7 @@
 
         <div class="inner__left">
           <h2>공지사항</h2>
-          <div class="swiper-container">
+          <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="javascript:void(0)">크리스마스 & 연말연시 스타벅스 매장 영업시간 변경 안내</a>
@@ -449,7 +455,7 @@
     <!--PROMOTION-->
     <div class="promotion">
 
-      <div class="swiper-container">
+      <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./images/promotion_slide1.jpg" alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!" />
@@ -526,7 +532,7 @@
       <img src="./images/season_product_image.png" alt="아이스 커피 블렌드" class="product back-to-position to-right delay-0" />
 
       <div class="text-group">
-        <img src="./images/season_product_image.png" alt="상쾌하게 여름을 반겨줄 시즌 원두 아이스 커피 블렌드" class="title back-to-position to-left delay-1" />
+        <img src="./images/season_product_text1.png" alt="상쾌하게 여름을 반겨줄 시즌 원두 아이스 커피 블렌드" class="title back-to-position to-left delay-1" />
         <img src="./images/season_product_text2.png" alt="아프리카와 라틴 아메리카 커피의 브렌드로 시트러스함과 은은한 캐러멜 향을 동시에 느낄 수 있으며, 차갑게 즐길 때 풍미가 더욱 깊어지는 원두입니다." class="description back-to-position to-left delay-2" />
         <div class="more back-to-position to-left delay-3">
           <a href="javascript:void(0)" class="btn">자세히 보기</a>
@@ -614,7 +620,7 @@
   <section class="awards">
     <div class="inner">
 
-      <div class="swiper-container">
+      <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./images/awards_slide1.jpg" alt="대통령 표창" />
