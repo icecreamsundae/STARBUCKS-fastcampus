@@ -16,8 +16,11 @@
 ```
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+```
 
 <h2>ScrollMagic</h2>
+
+```
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 ```
 
